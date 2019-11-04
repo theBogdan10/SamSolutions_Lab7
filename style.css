@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;  user-select: none;
+  background-color: #E8CDF7;
+  text-align: center;
+}
+
+body > .title {
+  display: block;
+  text-align: center;
+  font-size: 2rem;
+  margin: 30px 0;
+}
+
+input{
+  border-radius: 5px ;
+  margin-bottom: 20px;
+}
+input, select {
+  font-family: 'Lato', sans-serif;  user-select: none;
+  font-size: 1.2rem;
+  
+}
+
+input:focus, select:focus {
+  outline: none;
+}
+
